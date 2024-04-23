@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    srand(time(NULL)); // нужно чтобы создавался каждый 
+    srand(time(NULL)); // нужно чтобы создавался каждый раз новый массив
 
     float array[size];
     for (int i = 0; i < size; i++) {
